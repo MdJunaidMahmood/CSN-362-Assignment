@@ -1,0 +1,65 @@
+In my program, I have considered following tokens:
+Token Keyword which consist of: 'auto', 'bool', 'break', 'case', 'char', 'continue', 'delete', 'do', 'double', 'else', 'false', 'float', 'for', 'if', 'int', 'long', 'namespace', 'new', 'private', 'protected', 'public', 'return', 'short', 'signed', 'static', 'struct', 'switch', 'true', 'typedef', 'union', 'unsigned', 'using', 'void', 'while', 
+
+Token Special-Character which consist of: '#', '(', ')', '.', ':', ';', '[', ']', '{', '}', 
+
+Token Operator which consist of: '!', '!=', '&', '&&', '*', '*=', '+', '++', '+=', '-', '--', '-=', '/', '/=', '<', '<<', '<=', '=', '==', '>', '>=', '>>', '^', '|', '||', 
+
+Token Identifier which consist of any valid variable name. A variable name was considered valid, if it starts with an English alphabet (either small letter or capital letter) and consists of alphanumeric characters and underscore
+
+Token Number which consist of any valid integer or decimal number
+
+Token Literal which consist of any valid string or character literal
+
+Comments can only be entered using '//'
+-------------------------------------------------------------
+
+[Special-Character: '#']  [Identifier: 'include']  [Operator: '<']  [Identifier: 'iostream']  [Operator: '>']  
+
+[Keyword: 'using']  [Keyword: 'namespace']  [Identifier: 'std']  [Special-Character: ';']  
+
+[Keyword: 'int']  [Identifier: 'main']  [Special-Character: '(']  [Special-Character: ')']  [Special-Character: '{']  
+
+[Keyword: 'int']  [Identifier: 'first']  [Operator: '=']  [Number: '5']  [Special-Character: ';']  
+
+[Keyword: 'int']  [Identifier: 'second']  [Operator: '=']  [Number: '10']  [Special-Character: ';']  
+
+[Keyword: 'int']  [Identifier: 'third']  [Operator: '=']  [Number: '3']  [Special-Character: ';']  
+
+[Keyword: 'int']  [Identifier: 'result1']  [Special-Character: ';']  
+
+[Identifier: 'string']  [Identifier: 'text']  [Operator: '=']  [Literal: 'Sample Text"']  [Special-Character: ';']  
+
+[Keyword: 'char']  [Identifier: 'charText']  [Operator: '=']  [Literal: 'A']  [Special-Character: ';']  
+
+[Keyword: 'if']  [Special-Character: '(']  [Identifier: 'first']  [Operator: '>']  [Identifier: 'second']  [Special-Character: ')']  [Special-Character: '{']  
+
+[Identifier: 'result1']  [Operator: '=']  [Identifier: 'first']  [Operator: '-']  [Identifier: 'second']  [Special-Character: ';']  
+
+[Special-Character: '}']  [Keyword: 'else']  [Special-Character: '{']  
+
+[Identifier: 'result1']  [Operator: '=']  [Identifier: 'first']  [Operator: '+']  [Identifier: 'second']  [Special-Character: ';']  
+
+[Special-Character: '}']  
+
+[Keyword: 'int']  [Identifier: 'result2']  [Operator: '=']  [Identifier: 'result1']  [Special-Character: ';']  
+
+[Keyword: 'for']  [Special-Character: '(']  [Keyword: 'int']  [Identifier: 'i']  [Operator: '=']  [Number: '0']  [Special-Character: ';']  [Identifier: 'i']  [Operator: '<']  [Identifier: 'third']  [Special-Character: ';']  [Identifier: 'i']  [Operator: '++']  [Special-Character: ')']  [Special-Character: '{']  
+
+[Identifier: 'result2']  [Operator: '=']  [Identifier: 'result1']  [Operator: '*']  [Number: '2']  [Special-Character: ';']  
+
+[Special-Character: '}']  
+
+[Identifier: 'cout']  [Operator: '<<']  [Identifier: 'result2']  [Special-Character: ';']  
+
+[Special-Character: '}']  
+
+
+-------------------------------------------------
+In the above program following are the count of available tokens:
+Count of Keywords: 13
+Count of Special-Characters: 29
+Count of Operators: 19
+Count of Identifier: 29
+Count of Number: 5
+Count of Literal: 2

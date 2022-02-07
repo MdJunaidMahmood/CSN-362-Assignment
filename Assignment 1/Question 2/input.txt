@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main(){
+  int first = 5;
+  int second = 10;
+  int third = 3;
+  int result1;
+  string text = "Sample Text"; // This will be ignored
+  char charText = 'A'; // This will be ignored
+  if(first > second){
+    result1 = first - second;
+  }else{
+    result1 = first + second;
+  }
+  int result2 = result1;
+  for(int i = 0; i < third; i++){
+    result2 = result1 * 2;
+  }
+  cout << result2;
+}
