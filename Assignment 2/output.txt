@@ -1,0 +1,5 @@
+Language L1, L2, L3 found: abba
+
+Language L1, L2, L4 found: abababa
+
+Language L2, L3 found: bbbaabbb
