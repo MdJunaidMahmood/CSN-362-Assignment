@@ -1,0 +1,94 @@
+<LT, RELOP> 
+
+<LE, RELOP> 
+
+<EQ, RELOP> 
+
+<GE, RELOP> 
+
+<GT, RELOP> 
+
+<NE, RELOP> 
+
+<STRING, Value: Random \"String"  '\, Literal Symbol Table Entry: 0>
+
+<STRING, Value: 0, Literal Symbol Table Entry: 1>
+
+<NUMBER, Value: 19116040, Number Symbol Table Entry: 0> 
+
+<NUMBER, Value: 100.000000, Number Symbol Table Entry: 1> 
+
+<STRING, Value: Apple, Literal Symbol Table Entry: 2>
+
+<STRING, Value: Apple, Literal Symbol Table Entry: 2>
+
+<ID, Value: identifier0, Identifier Symbol Table Entry: 0>
+
+<STRING, Value: A, Literal Symbol Table Entry: 3>
+
+<STRING, Value: A, Literal Symbol Table Entry: 3>
+
+<NUMBER, Value: 125, Number Symbol Table Entry: 2> 
+
+<NUMBER, Value: 256, Number Symbol Table Entry: 3> 
+
+<NUMBER, Value: 256, Number Symbol Table Entry: 3> 
+
+<NUMBER, Value: 145.690000, Number Symbol Table Entry: 4> 
+
+<NUMBER, Value: 148.360000, Number Symbol Table Entry: 5> 
+
+<NUMBER, Value: 148.360000, Number Symbol Table Entry: 5> 
+
+<IF> 
+
+<ELSE> 
+
+<WHILE> 
+
+<THEN> 
+
+<STRING, Value: B, Literal Symbol Table Entry: 4>
+
+<NUMBER, Value: -89, Number Symbol Table Entry: 6> 
+
+<NUMBER, Value: -98.700000, Number Symbol Table Entry: 7> 
+
+<NUMBER, Value: 0.890000, Number Symbol Table Entry: 8> 
+
+<NUMBER, Value: -9870.000000, Number Symbol Table Entry: 9> 
+
+<STRING, Value: ", Literal Symbol Table Entry: 5>
+
+<ID, Value: identifier0, Identifier Symbol Table Entry: 0>
+
+<ID, Value: indetifier1, Identifier Symbol Table Entry: 1>
+
+<ID, Value: indetifier2, Identifier Symbol Table Entry: 2>
+----------------------------------------------------
+Literal Symbol Table:
+Index: 0, Value: Random \"String"  '\
+Index: 1, Value: 0
+Index: 2, Value: Apple
+Index: 3, Value: A
+Index: 4, Value: B
+Index: 5, Value: "
+
+----------------------------------------------------
+Number Symbol Table:
+Index: 0, Value: 19116040
+Index: 1, Value: 100.000000
+Index: 2, Value: 125
+Index: 3, Value: 256
+Index: 4, Value: 145.690000
+Index: 5, Value: 148.360000
+Index: 6, Value: -89
+Index: 7, Value: -98.700000
+Index: 8, Value: 0.890000
+Index: 9, Value: -9870.000000
+
+----------------------------------------------------
+Identifier Symbol Table:
+Index: 0, Value: identifier0
+Index: 1, Value: indetifier1
+Index: 2, Value: indetifier2
