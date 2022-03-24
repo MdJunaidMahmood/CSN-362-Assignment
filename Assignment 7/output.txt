@@ -1,0 +1,18 @@
+Production set provided as input is: 
+B->cC
+C->bC|#
+D->E|F
+E->g|#
+F->f|#
+S->aBDh
+
+
+Follow of each of the non-terminals in the productions set:
+B = {f, g, h}
+C = {f, g, h}
+D = {h}
+E = {h}
+F = {h}
+S = {$}
+
+
