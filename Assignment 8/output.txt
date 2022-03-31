@@ -1,0 +1,16 @@
+Grammar provided as input is: 
+E->E+T|T
+T->T*F|F
+
+Grammar after augmentation is: 
+E'->E
+E->E+T|T
+T->T*F|F
+
+List of all LR(0) items for the augmented grammar: 
+E'->.E|E.
+E->.E+T|E.+T|E+.T|E+T.
+E->.T|T.
+T->.T*F|T.*F|T*.F|T*F.
+T->.F|F.
+
