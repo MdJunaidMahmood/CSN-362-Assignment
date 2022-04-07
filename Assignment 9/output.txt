@@ -1,0 +1,33 @@
+Production set provided as input is: 
+E->TP
+F->(E)|i
+P->+TP|^
+R->*FR|^
+T->FR
+
+First of each of the non-terminals in the productions set:
+E = {(, i}
+F = {(, i}
+P = {+, ^}
+R = {*, ^}
+T = {(, i}
+
+Follow of each of the non-terminals in the productions set:
+E = {$, )}
+F = {$, ), *, +}
+P = {$, )}
+R = {$, ), +}
+T = {$, ), +}
+
+Predictive Parsing Table for the given Grammar: 
+     $           (           )           *           +           i           
+
+E                E->TP                                           E->TP       
+
+F                F->(E)                                          F->i        
+
+P    P->^                    P->^                    P->+TP                  
+
+R    R->^                    R->^        R->*FR      R->^                    
+
+T                T->FR                                           T->FR       
